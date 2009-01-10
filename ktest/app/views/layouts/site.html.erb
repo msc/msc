@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html> 
+  <head>
+
+    <%= javascript_include_tag :defaults %> 
+    <%= active_scaffold_includes %>
+    
+  </head>
+  <body>
+        <%= link_to_unless_current "Site",         :controller => 'site' %>  <br>
+        <%= link_to_unless_current "Kinds",        :controller => 'kinds' %> <br>
+        <%= link_to_unless_current "Users",        :controller => 'users' %> <br>
+        <%= link_to_unless_current "Apps",         :controller => 'apps' %>  <br>
+
+      <div id="content">
+
+        <%= yield %>
+
+      </div> 
+  </body>
+</html>
