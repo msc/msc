@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/michel/applications/ktest/app/controllers/application.rb</file>
+        <file>file:/home/michel/applications/ktest/app/controllers/apps_controller.rb</file>
+        <file>file:/home/michel/applications/ktest/app/controllers/kinds_controller.rb</file>
+        <file>file:/home/michel/applications/ktest/app/controllers/site_controller.rb</file>
+        <file>file:/home/michel/applications/ktest/app/controllers/users_controller.rb</file>
+        <file>file:/home/michel/applications/ktest/app/models/app.rb</file>
+        <file>file:/home/michel/applications/ktest/app/models/kind.rb</file>
+        <file>file:/home/michel/applications/ktest/app/models/user.rb</file>
+        <file>file:/home/michel/applications/ktest/app/views/layouts/site.html.erb</file>
+        <file>file:/home/michel/applications/ktest/app/views/site/index.html.erb</file>
+        <file>file:/home/michel/applications/ktest/config/database.yml</file>
+        <file>file:/home/michel/applications/ktest/config/routes.rb</file>
+        <file>file:/home/michel/applications/ktest/db/ktest_developpement_mysql</file>
+        <file>file:/home/michel/applications/ktest/db/migrate/001_create_kinds.rb</file>
+        <file>file:/home/michel/applications/ktest/db/migrate/002_create_apps.rb</file>
+        <file>file:/home/michel/applications/ktest/db/migrate/003_create_users.rb</file>
+    </open-files>
 </project-private>

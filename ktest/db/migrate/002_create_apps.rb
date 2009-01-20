@@ -5,7 +5,6 @@ class CreateApps < ActiveRecord::Migration
       t.column :title,           :string
       t.column :description,     :string
       t.column :kind_id,         :integer
-      t.column :user_id,         :integer
     end
   end
 

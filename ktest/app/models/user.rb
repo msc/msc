@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
   
-  has_many :apps
+    belongs_to :app
 end

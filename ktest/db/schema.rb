@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(:version => 3) do
     t.string  "title"
     t.string  "description"
     t.integer "kind_id"
-    t.integer "user_id"
   end
 
   create_table "kinds", :force => true do |t|
@@ -25,8 +24,10 @@ ActiveRecord::Schema.define(:version => 3) do
   end
 
   create_table "users", :force => true do |t|
-    t.string "name"
-    t.string "description"
+    t.string  "name"
+    t.string  "description"
+    t.boolean "female"
+    t.integer "app_id"
   end
 
 end
