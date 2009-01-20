@@ -1,37 +1,15 @@
-RJS Error with an Embedded controller
-=====================================
+Things get mixed...
 
-To recreate the "embedded" problem, you just have to go to
-http://localhost:3000/site
+Create one kind, one app and several users for that app.
 
-and then click in the Kind column for one app! (same if you click in the
-user column) Then you got the RJS error!
+Go to: http://localhost:3000/site
 
-RJS Error with a 1:n then n:1
-=============================
+In the last table with "Here the kinds_controller is embedded"
+you should have one line, with one app, 
+click in the Apps column, on the App with users.
 
-For the second problem (1:n n:1):
+The apps for this kind shows in a nested AS list... with their users in one column.
 
-You should first create an apps with a kind and an user (with name...):
-go to /apps, Create New, enter 3 names for kind, app and user, for
-example: K7, A7, U7; Create
+When you click in the users column, on the user list...
 
-then go to /users, click on the Apps column of U7 (thus, A7) Details for
-Apps for U7 shows... and then you can click on the kind column (K7)...
-
-Update K7 shows... but with the RJS error!
-
-RJS error with Create New
-=========================
-
-Go to /site
-Find an app that has no Kind or User (if necessary, you can create an
-app with just a name before)
-In the Kind or User column, you will find "Create New": click on that
-link, the Create sub-form shows well, but with the RJS error!
-
-Well well, click 2 times on OK, you can enter some data (user or kind)
-but when you click on the Create button you have one more time the RJS
-error, this time with a different message...
-
-And at the end, you cannot create another, it doesn't work!!
+The users shows but in the first embedded AS: "Here the apps_controller is embedded"
